@@ -1,0 +1,106 @@
+---
+
+
+R1:
+    hostname: 192.168.85.11
+    platform: 'ios'
+    username: samuel
+    password: cisco
+    groups:
+        - cisco_group
+    data:
+        vendor: vendor-x
+        rdss: 123
+        domain: rdsproject
+
+R2:
+    hostname: 192.168.85.12
+    platform: 'ios'
+    username: samuel
+    password: cisco
+    groups:
+        - cisco_group
+    data:
+        vendor: vendor-x
+        rdss: 123
+        domain: rdsproject
+
+
+R3:
+    hostname: 192.168.85.13
+    platform: 'ios'
+    username: samuel
+    password: cisco
+    groups:
+        - cisco_group
+    data:
+        vendor: vendor-x
+        rdss: 123
+        domain: rdsproject
+
+
+R4:
+    hostname: 192.168.85.14
+    platform: 'ios'
+    username: samuel
+    password: cisco
+    groups:
+        - cisco_group
+    data:
+        vendor: vendor-x
+        rdss: 123
+        domain: rdsproject
+
+
+
+
+R5:
+    hostname: 192.168.85.15
+    platform: 'ios'
+    username: samuel
+    password: cisco
+    groups:
+        - cisco_group
+    data:
+        vendor: vendor-y
+        rdss: 123
+        domain: rdsproject
+
+
+R6:
+    hostname: 192.168.85.16
+    platform: 'ios'
+    username: samuel
+    password: cisco
+    groups:
+        - cisco_group
+    data:
+        vendor: vendor-y
+        rdss: 123
+        domain: rdsproject
+
+
+R7:
+    hostname: 192.168.85.17
+    platform: 'ios'
+    username: samuel
+    password: cisco
+    groups:
+        - cisco_group
+    data:
+        vendor: vendor-y
+        rdss: 123
+        domain: rdsproject
+
+
+R8:
+    hostname: 192.168.85.18
+    platform: 'ios'
+    username: samuel
+    password: cisco
+    groups:
+        - cisco_group
+    data:
+        vendor: vendor-y
+        rdss: 123
+        domain: rdssproject

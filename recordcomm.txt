@@ -1,0 +1,63 @@
+Script started on 2023-01-26 20:52:05+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ls
+config_text  config.yaml  groups.yaml  hosts.yaml  recordcomm.txt  test3.py
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ls -la
+total 28
+drwxrwxr-x  2 rdsisdf rdsisdf 4096 Jan 26 20:52 [0m[01;34m.[0m
+drwxr-xr-x 27 rdsisdf rdsisdf 4096 Jan 26 20:23 [01;34m..[0m
+-rw-rw-r--  1 rdsisdf rdsisdf  293 Jan 26 19:55 config_text
+-rw-rw-r--  1 rdsisdf rdsisdf  318 Jan 24 23:06 config.yaml
+-rw-rw-r--  1 rdsisdf rdsisdf   38 Jan 24 16:15 groups.yaml
+-rw-rw-r--  1 rdsisdf rdsisdf 1678 Jan 24 20:27 hosts.yaml
+-rw-rw-r--  1 rdsisdf rdsisdf    0 Jan 26 20:52 recordcomm.txt
+-rw-rw-r--  1 rdsisdf rdsisdf  554 Jan 26 20:07 test3.py
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git initi[K
+Initialized empty Git repository in /home/rdsisdf/Git/.git/
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ls -la
+total 32
+drwxrwxr-x  3 rdsisdf rdsisdf 4096 Jan 26 20:52 [0m[01;34m.[0m
+drwxr-xr-x 27 rdsisdf rdsisdf 4096 Jan 26 20:23 [01;34m..[0m
+-rw-rw-r--  1 rdsisdf rdsisdf  293 Jan 26 19:55 config_text
+-rw-rw-r--  1 rdsisdf rdsisdf  318 Jan 24 23:06 config.yaml
+drwxrwxr-x  7 rdsisdf rdsisdf 4096 Jan 26 20:52 [01;34m.git[0m
+-rw-rw-r--  1 rdsisdf rdsisdf   38 Jan 24 16:15 groups.yaml
+-rw-rw-r--  1 rdsisdf rdsisdf 1678 Jan 24 20:27 hosts.yaml
+-rw-rw-r--  1 rdsisdf rdsisdf    0 Jan 26 20:52 recordcomm.txt
+-rw-rw-r--  1 rdsisdf rdsisdf  554 Jan 26 20:07 test3.py
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git add config.yaml config_tez[Kxt 
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ g9it [K[K[K[Kit status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   config.yaml[m
+	[32mnew file:   config_text[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mgroups.yaml[m
+	[31mhosts.yaml[m
+	[31mrecordcomm.txt[m
+	[31mtest3.py[m
+
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ gitt [K[K add [K .
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git add .status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   config.yaml[m
+	[32mnew file:   config_text[m
+	[32mnew file:   groups.yaml[m
+	[32mnew file:   hosts.yaml[m
+	[32mnew file:   recordcomm.txt[m
+	[32mnew file:   test3.py[m
+
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ clear
+[H[2J[3J]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git config --global user.email "samuel.cfis19-1047@drmgrdu .ac.in"
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git config --global user.email "samuel.cfis19-1047@drmgrdu.ac.in"[1P"[1P"[1P"[1P"[1P"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[C[K[K[K[K[K[K[K[K[K[K[K[Kma[K[
