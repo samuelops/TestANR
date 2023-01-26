@@ -60,4 +60,1175 @@ Changes to be committed:
 ]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ clear
 [H[2J[3J]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git config --global user.email "samuel.cfis19-1047@drmgrdu .ac.in"
 ]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git config --global user.email "samuel.cfis19-1047@drmgrdu.ac.in"[1P"[1P"[1P"[1P"[1P"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[C[K[K[K[K[K[K[K[K[K[K[K[Kma[K[
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[C[K[K[K[K[K[K[K[K[K[K[K[Kma[K[Kname "samuelops"
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   config.yaml[m
+	[32mnew file:   config_text[m
+	[32mnew file:   groups.yaml[m
+	[32mnew file:   hosts.yaml[m
+	[32mnew file:   recordcomm.txt[m
+	[32mnew file:   test3.py[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   recordcomm.txt[m
+
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git l[Klog
+fatal: your current branch 'master' does not have any commits yet
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git commit a[K--all -m "This is my ver [Ky first change!"
+[master (root-commit) e00e0d4] This is my very first change!
+ 6 files changed, 208 insertions(+)
+ create mode 100644 config.yaml
+ create mode 100644 config_text
+ create mode 100644 groups.yaml
+ create mode 100644 hosts.yaml
+ create mode 100644 recordcomm.txt
+ create mode 100644 test3.py
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git logh[K
+[?1h=[33mcommit e00e0d48ace700352182150567e7c0548a62a11d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: samuelops <samuel.cfis19-1047@drmgrdu.ac.in>[m
+Date:   Thu Jan 26 20:54:21 2023 +0530[m
+[m
+    This is my very first change![m
+[K[?1l>]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ clear
+[H[2J[3J]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ vim [K[K[K[Kls
+config_text  config.yaml  groups.yaml  hosts.yaml  recordcomm.txt  test3.py
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ vim test3.py 
+
+Command 'vim' not found, but can be installed with:
+
+sudo apt install vim         # version 2:8.1.2269-1ubuntu5.11, or
+sudo apt install vim-tiny    # version 2:8.1.2269-1ubuntu5.11
+sudo apt install neovim      # version 0.4.3-3
+sudo apt install vim-athena  # version 2:8.1.2269-1ubuntu5.11
+sudo apt install vim-gtk3    # version 2:8.1.2269-1ubuntu5.11
+sudo apt install vim-nox     # version 2:8.1.2269-1ubuntu5.11
+
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ sudo apt install vim
+[sudo] password for rdsisdf: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  vim-runtime
+Suggested packages:
+  ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  vim vim-runtime
+0 upgraded, 2 newly installed, 0 to remove and 2 not upgraded.
+Need to get 7,113 kB of archives.
+After this operation, 34.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] t y
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 vim-runtime all 2:8.1.2269-1ubuntu5.11 [5,873 kB]
+[33m0% [1 vim-runtime 9,935 B/5,873 kB 0%][0m[33m0% [1 vim-runtime 43.5 kB/5,873 kB 1%][0m[33m                                      2% [1 vim-runtime 134 kB/5,873 kB 2%][0m[33m2% [1 vim-runtime 222 kB/5,873 kB 4%][0m[33m4% [1 vim-runtime 350 kB/5,873 kB 6%][0m[33m5% [1 vim-runtime 452 kB/5,873 kB 8%][0m[33m6% [1 vim-runtime 552 kB/5,873 kB 9%][0m[33m8% [1 vim-runtime 698 kB/5,873 kB 12%][0m[33m9% [1 vim-runtime 844 kB/5,873 kB 14%][0m[33m11% [1 vim-runtime 990 kB/5,873 kB 17%][0m[33m13% [1 vim-runtime 1,139 kB/5,873 kB 19%][0m[33m14% [1 vim-runtime 1,282 kB/5,873 kB 22%]                          203 kB/s 28s[0m[33m16% [1 vim-runtime 1,428 kB/5,873 kB 24%]                          203 kB/s 27s[0m[33m18% [1 vim-runtime 1,574 kB/5,873 kB 27%]                          203 kB/s 27s[0m[33m19% [1 vim-runtime 1,723 kB/5,873 kB 29%]                          203 kB/s 26s[0m[33m21% [1 vim-runtime 1,869 kB/5,873 kB 32%]                          203 kB/s 25s[0m[33m23% [1 vim-runtime 2,015 kB/5,873 kB 34%]                          203 kB/s 25s[0m[33m24% [1 vim-runtime 2,161 kB/5,873 kB 37%]                          203 kB/s 24s[0m[33m26% [1 vim-runtime 2,307 kB/5,873 kB 39%]                          203 kB/s 23s[0m[33m28% [1 vim-runtime 2,453 kB/5,873 kB 42%]                          203 kB/s 22s[0m[33m29% [1 vim-runtime 2,599 kB/5,873 kB 44%]                          203 kB/s 22s[0m[33m31% [1 vim-runtime 2,742 kB/5,873 kB 47%]                          203 kB/s 21s[0m[33m33% [1 vim-runtime 2,891 kB/5,873 kB 49%]                          203 kB/s 20s[0m[33m34% [1 vim-runtime 3,037 kB/5,873 kB 52%]                          292 kB/s 13s[0m[33m36% [1 vim-runtime 3,183 kB/5,873 kB 54%]                          292 kB/s 13s[0m[33m37% [1 vim-runtime 3,329 kB/5,873 kB 57%]                          292 kB/s 12s[0m[33m39% [1 vim-runtime 3,477 kB/5,873 kB 59%]                          292 kB/s 12s[0m[33m41% [1 vim-runtime 3,623 kB/5,873 kB 62%]                          292 kB/s 11s[0m[33m42% [1 vim-runtime 3,767 kB/5,873 kB 64%]                          292 kB/s 11s[0m[33m44% [1 vim-runtime 3,918 kB/5,873 kB 67%]                          292 kB/s 10s[0m[33m46% [1 vim-runtime 4,059 kB/5,873 kB 69%]                          292 kB/s 10s[0m[33m47% [1 vim-runtime 4,207 kB/5,873 kB 72%]                           292 kB/s 9s[0m[33m49% [1 vim-runtime 4,353 kB/5,873 kB 74%]                           292 kB/s 9s[0m[33m51% [1 vim-runtime 4,502 kB/5,873 kB 77%]                           292 kB/s 8s[0m[33m52% [1 vim-runtime 4,643 kB/5,873 kB 79%]                           292 kB/s 8s[0m[33m54% [1 vim-runtime 4,789 kB/5,873 kB 82%]                           291 kB/s 7s[0m[33m56% [1 vim-runtime 4,940 kB/5,873 kB 84%]                           291 kB/s 7s[0m[33m57% [1 vim-runtime 5,086 kB/5,873 kB 87%]                           291 kB/s 6s[0m[33m59% [1 vim-runtime 5,229 kB/5,873 kB 89%]                           291 kB/s 6s[0m[33m60% [1 vim-runtime 5,373 kB/5,873 kB 91%]                           291 kB/s 5s[0m[33m62% [1 vim-runtime 5,524 kB/5,873 kB 94%]                           291 kB/s 5s[0m[33m64% [1 vim-runtime 5,665 kB/5,873 kB 96%]                           291 kB/s 4s[0m[33m65% [1 vim-runtime 5,811 kB/5,873 kB 99%]                           291 kB/s 4s[0m[33m76% [Working]                                                       291 kB/s 4s[0m                                                                               Get:2 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 vim amd64 2:8.1.2269-1ubuntu5.11 [1,240 kB]
+[33m76% [2 vim 0 B/1,240 kB 0%]                                         291 kB/s 4s[0m[33m77% [2 vim 58.1 kB/1,240 kB 5%]                                     291 kB/s 4s[0m[33m78% [2 vim 198 kB/1,240 kB 16%]                                     291 kB/s 3s[0m[33m80% [2 vim 333 kB/1,240 kB 27%]                                     291 kB/s 3s[0m[33m81% [2 vim 411 kB/1,240 kB 33%]                                     241 kB/s 3s[0m[33m82% [2 vim 537 kB/1,240 kB 43%]                                     241 kB/s 2s[0m[33m83% [2 vim 639 kB/1,240 kB 52%]                                     241 kB/s 2s[0m[33m85% [2 vim 753 kB/1,240 kB 61%]                                     241 kB/s 2s[0m[33m86% [2 vim 902 kB/1,240 kB 73%]                                     241 kB/s 1s[0m[33m88% [2 vim 1,048 kB/1,240 kB 85%]                                   241 kB/s 0s[0m[33m89% [2 vim 1,188 kB/1,240 kB 96%]                                   241 kB/s 0s[0m[33m100% [Working]                                                      241 kB/s 0s[0m                                                                               Fetched 7,113 kB in 28s (257 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package vim-runtime.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166672 files and directories currently installed.)
+Preparing to unpack .../vim-runtime_2%3a8.1.2269-1ubuntu5.11_all.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 11%][49m[39m [######....................................................] 8Adding 'diversion of /usr/share/vim/vim81/doc/help.txt to /usr/share/vim/vim81/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim81/doc/tags to /usr/share/vim/vim81/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:8.1.2269-1ubuntu5.11) ...
+7[24;0f[42m[30mProgress: [ 22%][49m[39m [############..............................................] 8Selecting previously unselected package vim.
+Preparing to unpack .../vim_2%3a8.1.2269-1ubuntu5.11_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [###################.......................................] 8Unpacking vim (2:8.1.2269-1ubuntu5.11) ...
+7[24;0f[42m[30mProgress: [ 44%][49m[39m [#########################.................................] 8Setting up vim-runtime (2:8.1.2269-1ubuntu5.11) ...
+7[24;0f[42m[30mProgress: [ 56%][49m[39m [################################..........................] 87[24;0f[42m[30mProgress: [ 67%][49m[39m [######################################....................] 8Setting up vim (2:8.1.2269-1ubuntu5.11) ...
+7[24;0f[42m[30mProgress: [ 78%][49m[39m [#############################################.............] 8update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+7[24;0f[42m[30mProgress: [ 89%][49m[39m [###################################################.......] 8Processing triggers for man-db (2.9.1-1) ...
+
+7[0;24r8[1A[J]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ sudo apt install vim[7Pvim test3.py 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"test3.py" [noeol] 17L, 554C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35mfrom[m nornir [35mimport[m InitNornir
+[35mfrom[m nornir_utils.plugins.functions [35mimport[m print_result, print_title
+[35mfrom[m nornir_netmiko [35mimport[m netmiko_send_config, netmiko_send_command
+
+[38;5;130mdef[m [36mbaseconfig[m(anr):
+    anr.run(task=netmiko_send_config, config_file = [31m"config_text"[m)
+    anr.run(task=netmiko_send_command, command_string = [31m"show run | sec user"[m)
+
+nr = InitNornir(
+    config_file=[31m"config.yaml"[m, dry_run=[36mTrue[m
+    )
+
+devices = nr.filter(rdss=[31m123[m)
+results = devices.run(task=baseconfig)
+
+print_title([31m"DEPLOYING AUTOMATED BASELINE CONFIGURATION"[m)
+print_result(results)
+[94m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81mfrom[m nornir [38;5;81mimport[m InitNornir
+[38;5;81mfrom[m nornir_utils.plugins.functions [38;5;81mimport[m print_result, print_title
+[38;5;81mfrom[m nornir_netmiko [38;5;81mimport[m netmiko_send_config, netmiko_send_command
+
+[93mdef[m [1m[96mbaseconfig[m(anr):
+    anr.run(task=netmiko_send_config, config_file = [95m"config_text"[m)
+    anr.run(task=netmiko_send_command, command_string = [95m"show run | sec user"[m)
+
+nr = InitNornir(
+    config_file=[95m"config.yaml"[m, dry_run=[1m[96mTrue[m
+    )
+
+devices = nr.filter(rdss=[95m123[m)
+results = devices.run(task=baseconfig)
+
+print_title([95m"DEPLOYING AUTOMATED BASELINE CONFIGURATION"[m)
+print_result(results)
+[94m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"test3.py" [noeol] 17L, 554C[1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^O[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53Hq[1;1H[?25h[?25l[24;54H^M[1;1H[24;53H   [1;1H[?25h[?25l[24;53H:[1;1H[24;1H[K[24;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ vim test3.py 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"test3.py" [noeol] 17L, 554C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35mfrom[m nornir [35mimport[m InitNornir
+[35mfrom[m nornir_utils.plugins.functions [35mimport[m print_result, print_title
+[35mfrom[m nornir_netmiko [35mimport[m netmiko_send_config, netmiko_send_command
+
+[38;5;130mdef[m [36mbaseconfig[m(anr):
+    anr.run(task=netmiko_send_config, config_file = [31m"config_text"[m)
+    anr.run(task=netmiko_send_command, command_string = [31m"show run | sec user"[m)
+
+nr = InitNornir(
+    config_file=[31m"config.yaml"[m, dry_run=[36mTrue[m
+    )
+
+devices = nr.filter(rdss=[31m123[m)
+results = devices.run(task=baseconfig)
+
+print_title([31m"DEPLOYING AUTOMATED BASELINE CONFIGURATION"[m)
+print_result(results)
+[94m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81mfrom[m nornir [38;5;81mimport[m InitNornir
+[38;5;81mfrom[m nornir_utils.plugins.functions [38;5;81mimport[m print_result, print_title
+[38;5;81mfrom[m nornir_netmiko [38;5;81mimport[m netmiko_send_config, netmiko_send_command
+
+[93mdef[m [1m[96mbaseconfig[m(anr):
+    anr.run(task=netmiko_send_config, config_file = [95m"config_text"[m)
+    anr.run(task=netmiko_send_command, command_string = [95m"show run | sec user"[m)
+
+nr = InitNornir(
+    config_file=[95m"config.yaml"[m, dry_run=[1m[96mTrue[m
+    )
+
+devices = nr.filter(rdss=[95m123[m)
+results = devices.run(task=baseconfig)
+
+print_title([95m"DEPLOYING AUTOMATED BASELINE CONFIGURATION"[m)
+print_result(results)
+[94m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"test3.py" [noeol] 17L, 554C[1;1H[?25h[?25l[24;53H:[1;1H[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"test3.py" 17L, 555C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ vim config_text 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"config_text" 7L, 293C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hbanner motd #
+  _____   ____   ____  _____  ____[9C___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \[7C/ _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1Hbanner motd #
+  _____   ____   ____  _____  ____[9C___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \[7C/ _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"config_text" 7L, 293C[1;1H[?25h[?25l[24;53H:[1;1H[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?25h[?25l[?2004l"config_text" 7L, 293C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ nanao [K[K[Kop[K config_text 
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 7 lines ](B[m[H(B[0;7m  GNU nano 4.8                      config_text                                 [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[mbanner motd #[3;3H_____   ____   ____  _____  ____[3;44H___    ___    ____[4d / ___/  /  _/  / __/ / ___/ / __ \[43G/ _ \  / _ \  / __/[5d/ /__   _/ /   _\ \  / /__  / /_/ /[42G/ , _/ / // / _\ \[6d\___/  /___/  /___/  \___/  \____/[41G/_/|_| /____/ /___/[8dThis Device Resides in INDIA!#[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25lT[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25le[?12l[?25h[?25lv[?12l[?25h[?25li[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lR[?12l[?25h[?25l[22d[K[8;15H[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lI[?12l[?25h[?25lN[?12l[?25h[?25lD[?12l[?25h[?25lI[?12l[?25h[?25lA[?12l[?25h[?25l![?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[8;29H#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25lI#[?12l[?25h[?25lS#[?12l[?25h[?25l #[?12l[?25h[?25l#[K[?12l[?25h[?25l#[K[?12l[?25h[?25ls#[?12l[?25h[?25l #[?12l[?25h[?25lM#[?12l[?25h[?25la#[?12l[?25h[?25li#[?12l[?25h[?25ln#[?12l[?25h[?25lt#[?12l[?25h[?25la#[?12l[?25h[?25li#[?12l[?25h[?25ln#[?12l[?25h[?25le#[?12l[?25h[?25ld#[?12l[?25h[?25l #[?12l[?25h[?25la#[?12l[?25h[?25ln#[?12l[?25h[?25ld#[?12l[?25h[?25l #[?12l[?25h[?25lM#[?12l[?25h[?25la#[?12l[?25h[?25ln#[?12l[?25h[?25la#[?12l[?25h[?25lg#[?12l[?25h[?25le#[?12l[?25h[?25ld#[?12l[?25h[?25l #[?12l[?25h[?25lb#[?12l[?25h[?25ly#[?12l[?25h[?25l #[?12l[?25h[?25lR#[?12l[?25h[?25lD#[?12l[?25h[?25lS#[?12l[?25h[?25l!#[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: config_text                                                 [22;1H(B[m[22;32H[?12l[?25h[?25l [1K (B[0;7m[ Writing... ](B[m[K[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 7 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[8;46H[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ cat cpo[K[Konfig_text 
+banner motd #
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \  
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/ 
+
+This Device Is Maintained and Managed by RDS!#
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ cat config_text [1@nano[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 7 lines ](B[m[H(B[0;7m  GNU nano 4.8                      config_text                                 [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[mbanner motd #[3;3H_____   ____   ____  _____  ____[3;44H___    ___    ____[4d / ___/  /  _/  / __/ / ___/ / __ \[43G/ _ \  / _ \  / __/[5d/ /__   _/ /   _\ \  / /__  / /_/ /[42G/ , _/ / // / _\ \[6d\___/  /___/  /___/  \___/  \____/[41G/_/|_| /____/ /___/[8dThis Device Is Maintained and Managed by RDS!#[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25lT[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25le[?12l[?25h[?25lv[?12l[?25h[?25li[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lI[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[8;13H[1P[?12l[?25h[?25lis Maintained and Managed by RDS!#[8;14H[?12l[?25h[?25l[22d[K[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: config_text                                                 [22;1H(B[m[22;32H[?12l[?25h[?25l [1K (B[0;7m[ Writing... ](B[m[K[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 7 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[8;14H[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ clear
+[H[2J[3J]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ python3 test[K[K[K[K[K[K[K[K[K[K[K[Kssd[Kg [K[Kh a[Ksamuel@192.168.85.11
+ssh: connect to host 192.168.85.11 port 22: Connection refused
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ssh samuel@192.168.85.11
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:0+pLzUI47tTfF/E9zuw/Uv2Hcm4x9juMjCGfr+ySzUg.
+Please contact your system administrator.
+Add correct host key in /home/rdsisdf/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/rdsisdf/.ssh/known_hosts:1
+  remove with:
+  ssh-keygen -f "/home/rdsisdf/.ssh/known_hosts" -R "192.168.85.11"
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+CC
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************samuel@192.168.85.11: Permission denied (publickey,keyboard-interactive,password).
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ sudo rm -r /home/rds/[Kisdf/.ssh/
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ sudo rm -r /home/rdsisdf/.ssh/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Psh samuel@192.168.85.11
+Warning: Permanently added '192.168.85.11' (RSA) to the list of known hosts.
+CC
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************Password: 
+CC
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+R1#
+R1#
+R1#exit
+Connection to 192.168.85.11 closed.
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ssh samuel@192.168.85.11[K2
+Warning: Permanently added '192.168.85.12' (RSA) to the list of known hosts.
+CC
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************Password: 
+CC
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+R2#
+R2#exit
+Connection to 192.168.85.12 closed.
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ssh samuel@192.168.85.12[K3
+Warning: Permanently added '192.168.85.13' (RSA) to the list of known hosts.
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************Password: 
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+R3#
+R3#
+R3#exit
+Connection to 192.168.85.13 closed.
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ssh samuel@192.168.85.13[K4
+Warning: Permanently added '192.168.85.14' (RSA) to the list of known hosts.
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************Password: 
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+R4#
+R4#
+R4#exit
+Connection to 192.168.85.14 closed.
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ssh samuel@192.168.85.14[K5
+Warning: Permanently added '192.168.85.15' (RSA) to the list of known hosts.
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************Password: 
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+R5#
+R5#
+R5#exit
+Connection to 192.168.85.15 closed.
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ssh samuel@192.168.85.15[K6
+Warning: Permanently added '192.168.85.16' (RSA) to the list of known hosts.
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************Password: 
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+R6#
+R6#
+R6#exit
+Connection to 192.168.85.16 closed.
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ssh samuel@192.168.85.16[K7
+Warning: Permanently added '192.168.85.17' (RSA) to the list of known hosts.
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************Password: 
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+R7#
+R7#
+R7#
+R7#exit
+Connection to 192.168.85.17 closed.
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ssh samuel@192.168.85.17[K8
+Warning: Permanently added '192.168.85.18' (RSA) to the list of known hosts.
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************Password: 
+C
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+R8#
+R8#
+R8#
+R8#exit
+Connection to 192.168.85.18 closed.
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ python3 test3.py 
+[1m[32m**** DEPLOYING AUTOMATED BASELINE CONFIGURATION ********************************[0m
+[0m[1m[36mbaseconfig**********************************************************************[0m
+[0m[1m[34m* R1 ** changed : False ********************************************************[0m
+[0m[1m[31mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv ERROR[0m
+[0mSubtask: netmiko_send_config (failed)
+[0m
+[0m[1m[31m---- netmiko_send_config ** changed : False ------------------------------------ ERROR[0m
+[0mTraceback (most recent call last):
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 33, in netmiko_send_config
+    raise ValueError("netmiko_send_config does not support dry_run")
+ValueError: netmiko_send_config does not support dry_run
+[0m
+[0m[1m[31m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R2 ** changed : False ********************************************************[0m
+[0m[1m[31mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv ERROR[0m
+[0mSubtask: netmiko_send_config (failed)
+[0m
+[0m[1m[31m---- netmiko_send_config ** changed : False ------------------------------------ ERROR[0m
+[0mTraceback (most recent call last):
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 33, in netmiko_send_config
+    raise ValueError("netmiko_send_config does not support dry_run")
+ValueError: netmiko_send_config does not support dry_run
+[0m
+[0m[1m[31m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R3 ** changed : False ********************************************************[0m
+[0m[1m[31mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv ERROR[0m
+[0mSubtask: netmiko_send_config (failed)
+[0m
+[0m[1m[31m---- netmiko_send_config ** changed : False ------------------------------------ ERROR[0m
+[0mTraceback (most recent call last):
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 33, in netmiko_send_config
+    raise ValueError("netmiko_send_config does not support dry_run")
+ValueError: netmiko_send_config does not support dry_run
+[0m
+[0m[1m[31m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R4 ** changed : False ********************************************************[0m
+[0m[1m[31mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv ERROR[0m
+[0mSubtask: netmiko_send_config (failed)
+[0m
+[0m[1m[31m---- netmiko_send_config ** changed : False ------------------------------------ ERROR[0m
+[0mTraceback (most recent call last):
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 33, in netmiko_send_config
+    raise ValueError("netmiko_send_config does not support dry_run")
+ValueError: netmiko_send_config does not support dry_run
+[0m
+[0m[1m[31m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R5 ** changed : False ********************************************************[0m
+[0m[1m[31mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv ERROR[0m
+[0mSubtask: netmiko_send_config (failed)
+[0m
+[0m[1m[31m---- netmiko_send_config ** changed : False ------------------------------------ ERROR[0m
+[0mTraceback (most recent call last):
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 33, in netmiko_send_config
+    raise ValueError("netmiko_send_config does not support dry_run")
+ValueError: netmiko_send_config does not support dry_run
+[0m
+[0m[1m[31m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R6 ** changed : False ********************************************************[0m
+[0m[1m[31mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv ERROR[0m
+[0mSubtask: netmiko_send_config (failed)
+[0m
+[0m[1m[31m---- netmiko_send_config ** changed : False ------------------------------------ ERROR[0m
+[0mTraceback (most recent call last):
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 33, in netmiko_send_config
+    raise ValueError("netmiko_send_config does not support dry_run")
+ValueError: netmiko_send_config does not support dry_run
+[0m
+[0m[1m[31m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R7 ** changed : False ********************************************************[0m
+[0m[1m[31mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv ERROR[0m
+[0mSubtask: netmiko_send_config (failed)
+[0m
+[0m[1m[31m---- netmiko_send_config ** changed : False ------------------------------------ ERROR[0m
+[0mTraceback (most recent call last):
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 33, in netmiko_send_config
+    raise ValueError("netmiko_send_config does not support dry_run")
+ValueError: netmiko_send_config does not support dry_run
+[0m
+[0m[1m[31m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R8 ** changed : False ********************************************************[0m
+[0m[1m[31mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv ERROR[0m
+[0mSubtask: netmiko_send_config (failed)
+[0m
+[0m[1m[31m---- netmiko_send_config ** changed : False ------------------------------------ ERROR[0m
+[0mTraceback (most recent call last):
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/rdsisdf/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 33, in netmiko_send_config
+    raise ValueError("netmiko_send_config does not support dry_run")
+ValueError: netmiko_send_config does not support dry_run
+[0m
+[0m[1m[31m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[0m]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ python3 test3.py 
+[1m[32m**** DEPLOYING AUTOMATED BASELINE CONFIGURATION ********************************[0m
+[0m[1m[36mbaseconfig**********************************************************************[0m
+[0m[1m[34m* R1 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device is Maintained and Managed by RDS!#
+R1(config)#end
+R1#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R2 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R2(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device is Maintained and Managed by RDS!#
+R2(config)#end
+R2#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R3 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device is Maintained and Managed by RDS!#
+R3(config)#end
+R3#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R4 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R4(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device is Maintained and Managed by RDS!#
+R4(config)#end
+R4#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R5 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R5(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device is Maintained and Managed by RDS!#
+R5(config)#end
+R5#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R6 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R6(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device is Maintained and Managed by RDS!#
+R6(config)#end
+R6#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R7 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R7(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device is Maintained and Managed by RDS!#
+R7(config)#end
+R7#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R8 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R8(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device is Maintained and Managed by RDS!#
+R8(config)#end
+R8#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[0m]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ clear
+[H[2J[3J]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ ls
+config_text  groups.yaml  nornir.log      test3.py
+config.yaml  hosts.yaml   recordcomm.txt
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ vim config_text 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"config_text" 1L, 65C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hbanner motd # This Device is not maintained and managed by RDS #
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1Hbanner motd # This Device is not maintained and managed by RDS #
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"config_text" 1L, 65C[1;1H[?25h[?25l[24;53H:[1;1H[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"config_text" 1L, 65C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ python3 test3.py 
+[1m[32m**** DEPLOYING AUTOMATED BASELINE CONFIGURATION ********************************[0m
+[0m[1m[36mbaseconfig**********************************************************************[0m
+[0m[1m[34m* R1 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#banner motd # This Device is not maintained and managed by RDS #
+R1(config)#end
+R1#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R2 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R2(config)#banner motd # This Device is not maintained and managed by RDS #
+R2(config)#end
+R2#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R3 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0m
+R3#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#banner motd # This Device is not maintained and managed by RDS #
+R3(config)#end
+R3#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R4 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R4(config)#banner motd # This Device is not maintained and managed by RDS #
+R4(config)#end
+R4#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R5 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R5(config)#banner motd # This Device is not maintained and managed by RDS #
+R5(config)#end
+R5#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R6 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R6(config)#banner motd # This Device is not maintained and managed by RDS #
+R6(config)#end
+R6#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R7 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R7(config)#banner motd # This Device is not maintained and managed by RDS #
+R7(config)#end
+R7#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R8 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R8(config)#banner motd # This Device is not maintained and managed by RDS #
+R8(config)#end
+R8#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[0m]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   config.yaml[m
+	[31mmodified:   config_text[m
+	[31mmodified:   recordcomm.txt[m
+	[31mmodified:   test3.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mnornir.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git co[K[Kdiff config_text
+[?1h=[1mdiff --git a/config_text b/config_text[m[m
+[1mindex b63e0ff..2dd53c3 100644[m[m
+[1m--- a/config_text[m[m
+[1m+++ b/config_text[m[m
+[36m@@ -1,7 +1 @@[m[m
+[31m-banner motd #[m[m
+[31m-  _____   ____   ____  _____  ____         ___    ___    ____[m[m
+[31m- / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/[m[m
+[31m-/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \  [m[m
+[31m-\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/ [m[m
+[31m-[m[m
+[31m-This Device Resides in INDIA!#[m[m
+[32m+[m[32mbanner motd # This Device is not maintained and managed by RDS #[m[m
+[K[?1l>]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ vim config_text 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"config_text" 1L, 65C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hbanner motd # This Device is not maintained and managed by RDS #
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1Hbanner motd # This Device is not maintained and managed by RDS #
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"config_text" 1L, 65C[1;1H[?25h[?25l[24;53H:[1;1H[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"config_text" 1L, 65C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git checkout config_text
+Updated 1 path from the index
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   config.yaml[m
+	[31mmodified:   recordcomm.txt[m
+	[31mmodified:   test3.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mnornir.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ vim config_texz[Kt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"config_text" 7L, 293C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hbanner motd #
+  _____   ____   ____  _____  ____[9C___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \[7C/ _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1Hbanner motd #
+  _____   ____   ____  _____  ____[9C___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \[7C/ _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"config_text" 7L, 293C[1;1H[?25h[?25l[24;53H:[1;1H[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"config_text" 7L, 293C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ python3 test3.py 
+[1m[32m**** DEPLOYING AUTOMATED BASELINE CONFIGURATION ********************************[0m
+[0m[1m[36mbaseconfig**********************************************************************[0m
+[0m[1m[34m* R1 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+R1(config)#end
+R1#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R2 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R2(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+R2(config)#end
+R2#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R3 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+R3(config)#end
+R3#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R4 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R4(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+R4(config)#end
+R4#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R5 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R5(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+R5(config)#end
+R5#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R6 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R6(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+R6(config)#end
+R6#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R7 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R7(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+R7(config)#end
+R7#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[1m[34m* R8 ** changed : True *********************************************************[0m
+[0m[1m[32mvvvv baseconfig ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO[0m
+[0m[1m[33m---- netmiko_send_config ** changed : True ------------------------------------- INFO[0m
+[0mconfigure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R8(config)#banner motd #
+Enter TEXT message.  End with the character '#'.
+  _____   ____   ____  _____  ____         ___    ___    ____
+ / ___/  /  _/  / __/ / ___/ / __ \       / _ \  / _ \  / __/
+/ /__   _/ /   _\ \  / /__  / /_/ /      / , _/ / // / _\ \
+\___/  /___/  /___/  \___/  \____/      /_/|_| /____/ /___/
+
+This Device Resides in INDIA!#
+R8(config)#end
+R8#[0m
+[0m[1m[32m---- netmiko_send_command ** changed : False ----------------------------------- INFO[0m
+[0musername samuel privilege 15 password 0 cisco[0m
+[0m[1m[32m^^^^ END baseconfig ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m[0m]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ clear
+[H[2J[3J]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git remote add origin https://github.com/samuelops/TestANR.git
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git push -u origin main
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/samuelops/TestANR.git'
+[m]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git push -u origin main[K[K[Kaster
+Username for 'https://github.com': samuelops
+Password for 'https://samuelops@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/samuelops/TestANR.git/'
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git push -u origin master
+Username for 'https://github.com': samuelops
+Password for 'https://samuelops@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/samuelops/TestANR.git/'
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git push -u origin master
+Username for 'https://github.com': samuelops
+Password for 'https://samuelops@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/samuelops/TestANR.git/'
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git remote add origin https://github.com/samuelops/TestANR.git
+fatal: remote origin already exists.
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git branch -M main
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git push -u origin main
+Username for 'https://github.com': samuelops
+Password for 'https://samuelops@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/samuelops/TestANR.git/'
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git push -u origin main
+Username for 'https://github.com': samuelops
+Password for 'https://samuelops@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/samuelops/TestANR.git/'
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git push -u origin main
+Username for 'https://github.com': samuelops
+Password for 'https://samuelops@github.com': 
+Enumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 1.98 KiB | 1013.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/samuelops/TestANR.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ clear
+[H[2J[3J]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ vim test3.py 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"test3.py" 17L, 556C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35mfrom[m nornir [35mimport[m InitNornir
+[35mfrom[m nornir_utils.plugins.functions [35mimport[m print_result, print_title
+[35mfrom[m nornir_netmiko [35mimport[m netmiko_send_config, netmiko_send_command
+
+[38;5;130mdef[m [36mbaseconfig[m(anr):
+    anr.run(task=netmiko_send_config, config_file = [31m"config_text"[m)
+    anr.run(task=netmiko_send_command, command_string = [31m"show run | sec user"[m)
+
+nr = InitNornir(
+    config_file=[31m"config.yaml"[m, dry_run=[36mFalse[m
+    )
+
+devices = nr.filter(rdss=[31m123[m)
+results = devices.run(task=baseconfig)
+
+print_title([31m"DEPLOYING AUTOMATED BASELINE CONFIGURATION"[m)
+print_result(results)
+[94m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81mfrom[m nornir [38;5;81mimport[m InitNornir
+[38;5;81mfrom[m nornir_utils.plugins.functions [38;5;81mimport[m print_result, print_title
+[38;5;81mfrom[m nornir_netmiko [38;5;81mimport[m netmiko_send_config, netmiko_send_command
+
+[93mdef[m [1m[96mbaseconfig[m(anr):
+    anr.run(task=netmiko_send_config, config_file = [95m"config_text"[m)
+    anr.run(task=netmiko_send_command, command_string = [95m"show run | sec user"[m)
+
+nr = InitNornir(
+    config_file=[95m"config.yaml"[m, dry_run=[1m[96mFalse[m
+    )
+
+devices = nr.filter(rdss=[95m123[m)
+results = devices.run(task=baseconfig)
+
+print_title([95m"DEPLOYING AUTOMATED BASELINE CONFIGURATION"[m)
+print_result(results)
+[94m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"test3.py" 17L, 556C[1;1H[?25h[?25l[24;53H~@k[1;1H[24;53H   [2;1H[24;63H2[2;1H[?25h[?25l[24;53H~@k[2;1H[24;53H   [2;2H[24;65H2[2;2H[?25h[?25l[24;53H~@k[2;2H[24;53H   [2;3H[24;65H3[2;3H[?25h[?25l[24;53H~@k[2;3H[24;53H   [2;4H[24;65H4[2;4H[?25h[?25l[24;53H~@k[2;4H[24;53H   [2;5H[24;65H5[2;5H[?25h[?25l[24;53H~@k[2;5H[24;53H   [2;6H[24;65H6[2;6H[?25h[?25l[24;53H~@k[2;6H[24;53H   [2;7H[24;65H7[2;7H[?25h[?25l[24;53H~@k[2;7H[24;53H   [2;8H[24;65H8[2;8H[?25h[?25l[24;53H~@k[2;8H[24;53H   [2;9H[24;65H9[2;9H[?25h[?25l[24;53H~@k[2;9H[24;53H   [2;10H[24;65H10[2;10H[?25h[?25l[24;53H~@k[2;10H[24;53H   [2;11H[24;66H1[2;11H[?25h[?25l[24;53H~@k[2;11H[24;53H   [2;12H[24;66H2[2;12H[?25h[?25l[24;53H~@k[2;12H[24;53H   [2;13H[24;66H3[2;13H[?25h[?25l[24;53H~@k[2;13H[24;53H   [2;14H[24;66H4[2;14H[?25h[?25l[24;53H~@k[2;14H[24;53H   [2;15H[24;66H5[2;15H[?25h[?25l[24;53H~@k[2;15H[24;53H   [2;16H[24;66H6[2;16H[?25h[?25l[24;53H~@k[2;16H[24;53H   [2;17H[24;66H7[2;17H[?25h[?25l[24;53H~@k[2;17H[24;53H   [2;18H[24;66H8[2;18H[?25h[?25l[24;53H~@k[2;18H[24;53H   [2;19H[24;66H9[2;19H[?25h[?25l[24;53H~@k[2;19H[24;53H   [2;20H[24;65H20[2;20H[?25h[?25l[24;53H~@k[2;20H[24;53H   [2;21H[24;66H1[2;21H[?25h[?25l[24;53H~@k[2;21H[24;53H   [2;22H[24;66H2[2;22H[?25h[?25l[24;53H~@k[2;22H[24;53H   [2;23H[24;66H3[2;23H[?25h[?25l[24;53H~@k[2;23H[24;53H   [2;24H[24;66H4[2;24H[?25h[?25l[24;53H~@k[2;24H[24;53H   [2;25H[24;66H5[2;25H[?25h[?25l[24;53H~@k[2;25H[24;53H   [2;26H[24;66H6[2;26H[?25h[?25l[24;53H~@k[2;26H[24;53H   [2;27H[24;66H7[2;27H[?25h[?25l[24;53H~@k[2;27H[24;53H   [2;28H[24;66H8[2;28H[?25h[?25l[24;53H~@k[2;28H[24;53H   [3;28H[24;63H3[3;28H[?25h[?25l[24;53H~@k[3;28H[24;53H   [4;1H[24;63H4,0-1[4;1H[?25h[?25l[24;53H~@k[4;1H[24;53H   [5;20H[24;63H5,20 [5;20H[?25h[?25l[24;53H~@k[5;20H[24;53H   [5;20H[?25h[?25l[24;53H~@k[5;20H[24;53H   [6;28H[24;63H6,28[6;28H[?25h[?25l[24;53H~@k[6;28H[24;53H   [7;28H[24;63H7[7;28H[?25h[?25l[24;53H~@k[7;28H[24;53H   [8;1H[24;63H8,0-1[8;1H[?25h[?25l[24;53H~@k[8;1H[24;53H   [9;16H[46m([11;5H)[m[24;63H9,16 [9;16H[?25h[?25l[24;53H~@k[9;16H[24;53H   [10;28H[9;16H([11;5H)[24;63H10,28[10;28H[?25h[?25l[24;53H~@k[10;28H[24;53H   [11;5H[9;16H[46m([11;5H)[m[24;64H1,5 [11;5H[?25h[?25l[24;53H~@k[11;5H[24;53H   [12;1H[9;16H([11;5H)[24;64H2,0-1[12;1H[?25h[?25l[24;53H~@k[12;1H[24;53H   [13;28H[24;64H3,28 [13;28H[?25h[?25l[24;53H~@k[13;28H[24;53H   [14;28H[24;64H4[14;28H[?25h[?25l[24;53H~@k[14;28H[24;53H   [15;1H[24;64H5,0-1[15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [16;28H[24;64H6,28 [16;28H[?25h[?25l[24;53H~@k[16;28H[24;53H   [17;21H[17;13H[46m([7C)[m[24;64H7,21[17;21H[?25h[?25l[24;53H~@k[17;21H[24;53H   [17;21H[?25h[?25l[24;53H~@k[17;21H[24;53H   [16;28H[17;13H([7C)[24;64H6,28[16;28H[?25h[?25l[24;53H~@k[16;28H[24;53H   [15;1H[24;64H5,0-1[15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [16;28H[24;64H6,28 [16;28H[?25h[?25l[24;53H~@k[16;28H[24;53H   [15;1H[24;64H5,0-1[15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [14;28H[24;64H4,28 [14;28H[?25h[?25l[24;53H~@k[14;28H[24;53H   [13;28H[24;64H3[13;28H[?25h[?25l[24;53H~@k[13;28H[24;53H   [12;1H[24;64H2,0-1[12;1H[?25h[?25l[24;53H~@k[12;1H[24;53H   [11;5H[9;16H[46m([11;5H)[m[24;64H1,5  [11;5H[?25h[?25l[24;53H~@k[11;5H[24;53H   [10;28H[9;16H([11;5H)[24;64H0,28[10;28H[?25h[?25l[24;53H~@k[10;28H[24;53H   [9;16H[46m([11;5H)[m[24;63H9,16 [9;16H[?25h[?25l[24;53H~@k[9;16H[24;53H   [8;1H[9;16H([11;5H)[24;63H8,0-1[8;1H[?25h[?25l[24;53H~@k[8;1H[24;53H   [7;28H[24;63H7,28 [7;28H[?25h[?25l[24;53H~@k[7;28H[24;53H   [6;28H[24;63H6[6;28H[?25h[?25l[24;53H~@k[6;28H[24;53H   [6;28H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H6,28[10CAll[6;28H[?25h[?25l[24;66H9[6;29H[?25h[?25l[24;65H30[6;30H[?25h[?25l[24;66H1[6;31H[?25h[?25l[24;66H2[6;32H[?25h[?25l[24;66H3[6;33H[?25h[?25l[24;66H4[6;34H[?25h[?25l[24;66H5[6;35H[?25h[?25l[24;66H6[6;36H[?25h[?25l[24;66H7[6;37H[?25h[?25l[24;66H8[6;38H[?25h[?25l[24;66H9[6;39H[?25h[?25l[24;65H40[6;40H[?25h[?25l[24;66H1[6;41H[?25h[?25l[24;66H2[6;42H[?25h[?25l[24;66H3[6;43H[?25h[?25l[24;66H4[6;44H[?25h[?25l[24;66H5[6;45H[?25h[?25l[24;66H6[6;46H[?25h[?25l[24;66H7[6;47H[?25h[?25l[24;66H8[6;48H[?25h[?25l[24;66H9[6;49H[?25h[?25l[24;65H50[6;50H[?25h[?25l[24;66H1[6;51H[?25h[?25l[24;66H2[6;52H[?25h[?25l[24;66H3[6;53H[?25h[?25l[24;66H4[6;54H[?25h[?25l[24;66H5[6;55H[?25h[?25l[24;66H6[6;56H[?25h[?25l[24;66H7[6;57H[?25h[?25l[24;66H8[6;58H[?25h[?25l[24;66H9[6;59H[?25h[?25l[24;65H60[6;60H[?25h[?25l[24;66H1[6;61H[?25h[?25l[24;66H2[6;62H[?25h[?25l[24;66H3[6;63H[?25h[?25l[24;66H4[6;64H[?25h[?25l[24;66H3[6;63H[?25h[?25l[24;66H4[6;64H[?25h[?25l[7;23r[7;1H[L[1;24r[6;64H[K[7;1H[95m            t"[m)[24;63H[K[24;63H7,13[10CAll[7;13H[?25h[?25l[95mt"[m)[7;12H[K[24;65H9 [7;9H[?25h[?25l[95mt"[m)[7;8H[K[24;65H5[7;5H[?25h[?25l[95mt"[m)[7;4H[K[24;65H1[7;1H[?25h[?25l[6;23r[23;1H
+[1;24r[6;1H    anr.run(task=netmiko_send_config, config_file = [95m"config_text"[m)[23;1H[94m~                                                                               [m[24;63H[K[24;63H6,64[10CAll[6;64H[?25h[?25l[24;66H3[6;63H[?25h[?25l[24;66H2[6;62H[?25h[?25l[24;66H1[6;61H[?25h[?25l[24;66H0[6;60H[?25h[?25l[24;65H59[6;59H[?25h[?25l[24;66H8[6;58H[?25h[?25l[24;66H7[6;57H[?25h[?25l[95m:fig_text"[m)[24;66H8[6;58H[?25h[?25l[95mfig_text"[m)[6;67H[K[24;66H7[6;57H[?25h[?25l[24;66H6[6;56H[?25h[?25l[24;66H5[6;55H[?25h[?25l[24;66H4[6;54H[?25h[?25l[24;66H3[6;53H[?25h[?25lconfig_text[95m")[m[6;66H[K[7;1H[95m    anr.run(task=netmiko_send_command, command_string = [m[1Cshow run | sec use[2C[95m)
+
+nr = InitNornir(
+    config_file=[m[1Cconfig.yaml[1C[95m, dry_run=False
+    )
+
+devices = nr.filter(rdss=123)
+results = devices.run(task=baseconfig)
+
+print_title([m[1CDEPLOYING AUTOMATED BASELINE CONFIGURATION[1C[95m)
+print_result(results)[6;53H[?25h[?25l[m[24;63H7[7;53H[?25h[?25l[24;66H4[7;54H[?25h[?25l[24;66H5[7;55H[?25h[?25l[24;66H6[7;56H[?25h[?25l[24;66H7[7;57H[?25h[?25l[24;66H8[7;58H[?25h[?25l[24;66H9[7;59H[?25h[?25l[24;66H8[7;58H[?25h[?25l[24;66H7[7;57H[?25h[?25l[95m["[mshow run | sec use[95mr")[m[24;66H8[7;58H[?25h[?25l[95m"[mshow run | sec use[95mr")[m[7;79H[K[24;66H7[7;57H[?25h[?25l[95m{"[mshow run | sec use[95mr")[m[24;66H8[7;58H[?25h[?25l[24;66H9[7;59H[?25h[?25l[24;65H60[7;60H[?25h[?25l[24;66H1[7;61H[?25h[?25l[24;66H2[7;62H[?25h[?25l[24;66H3[7;63H[?25h[?25l[24;66H4[7;64H[?25h[?25l[24;66H5[7;65H[?25h[?25l[24;66H6[7;66H[?25h[?25l[24;66H7[7;67H[?25h[?25l[24;66H8[7;68H[?25h[?25l[24;66H9[7;69H[?25h[?25l[24;65H70[7;70H[?25h[?25l[24;66H1[7;71H[?25h[?25l[24;66H2[7;72H[?25h[?25l[24;66H3[7;73H[?25h[?25l[24;66H4[7;74H[?25h[?25l[24;66H5[7;75H[?25h[?25l[24;66H6[7;76H[?25h[?25l[24;66H7[7;77H[?25h[?25l[24;66H8[7;78H[?25h[?25lr}[95m")[m[24;66H9[7;79H[?25h[?25l[8;23r[8;1H[L[1;24r[7;79H:[95m""[8;1H)[m[24;63H[K[24;63H7,80[10CAll[7;80H[?25h[?25l;;[8;1H[95m")[m[24;66H1[8;1H[?25h[?25l[7;80H[95m""[8;1H)[m[8;2H[K[24;66H0[7;80H[?25h[?25l[7;23r[23;1H
+[1;24r[7;1H[95m    anr.run(task=netmiko_send_command, command_string = {"[mshow run | sec user}[95m")[m[23;1H[94m~                                                                               [m[24;63H[K[24;63H7,79[10CAll[7;79H[?25h[?25l[24;4H[1mREPLACE --[m[24;63H[K[24;63H7,79[10CAll[7;79H[?25h[?25l:)[9;1Hnr = InitNornir(
+    config_file=[1C[95mconfig.yaml[m[1C, dry_run=[1m[96mFalse[m
+    )
+
+devices = nr.filter(rdss=[3C)
+results = devices.run(task=baseconfig)
+
+print_title([1C[95mDEPLOYING AUTOMATED BASELINE CONFIGURATION[m[1C)
+print_result(results)[6;12H[46m([7;80H)[m[24;65H80[7;80H[?25h[?25l[24;4H[1mINSERTE -[m[24;13H[K[24;63H7,80[10CAll[7;80H[?25h[?25l[24;4H[1mREPLACE --[m[24;63H[K[24;63H7,80[10CAll[7;80H[?25h[?25l[24;4H[1mINSERTE -[m[24;13H[K[24;63H7,80[10CAll[7;80H[?25h[?25l[24;4H[1mREPLACE --[m[24;63H[K[24;63H7,80[10CAll[7;80H[?25h[?25l[95m"[m[95m[46m)[m[9;1H[95mnr = InitNornir(
+    config_file=[m[1Cconfig.yaml[1C[95m, dry_run=False
+    )
+
+devices = nr.filter(rdss=123)
+results = devices.run(task=baseconfig)
+
+print_title([m[1CDEPLOYING AUTOMATED BASELINE CONFIGURATION[1C[95m)
+print_result(results)[m[6;12H([7;80H[95m)[m[24;65H79[7;79H[?25h[?25l[24;4H[1mINSERTE -[m[24;13H[K[24;63H7,79[10CAll[7;79H[?25h[?25l[8;23r[8;1H[L[1;24r[7;79H:[95m""[8;1H)[m[24;63H[K[24;63H7,80[10CAll[7;80H[?25h[?25l[24;63H8,1 [9;1H[?25h[?25l[10;16H[95m[46m([12;5H)[m[24;63H9,17[10;17H[?25h[?25l[95m([12;5H)[m[24;63H10,45[11;45H[?25h[?25l[10;16H[95m[46m([12;5H)[m[24;64H1,6 [12;6H[?25h[?25l[10;16H[95m([12;5H)[m[24;64H2,1[13;1H[?25h[?25l[14;20H[95m[46m([8C)[m[24;64H3,30[14;30H[?25h[?25l[14;20H[95m([8C)[m[15;22H[95m[46m([15C)[m[24;64H4,39[15;39H[?25h[?25l[15;22H[95m([15C)[m[24;64H5,1 [16;1H[?25h[?25l[17;12H[95m[46m([44C)[m[24;64H6,58[17;58H[?25h[?25l[17;12H[95m([44C)[m[18;13H[95m[46m([7C)[m[24;64H7,22[18;22H[?25h[?25l[95m:[18;13H([7C)[m[24;67H3[18;23H[?25h[?25l[18;22H[K[18;13H[95m[46m([7C)[m[24;67H2[18;22H[?25h[24;1H[K[18;21H[?25l[24;53H^[[18;21H[24;53H  [18;22H[24;63H17,21[9CAll[18;21H[?25h[?25l[24;53H:[18;21H[24;53H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"test3.py" 17L, 558C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ clear
+[H[2J[3J]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   config.yaml[m
+	[31mmodified:   recordcomm.txt[m
+	[31mmodified:   test3.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mnornir.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git diff tr[Kest3.py
+[?1h=[1mdiff --git a/test3.py b/test3.py[m[m
+[1mindex d022ad3..5803a2a 100644[m[m
+[1m--- a/test3.py[m[m
+[1m+++ b/test3.py[m[m
+[36m@@ -3,15 +3,15 @@[m [mfrom nornir_utils.plugins.functions import print_result, print[m [36m[m[m_title[m[m
+ from nornir_netmiko import netmiko_send_config, netmiko_send_command[m[m
+ [m[m
+ def baseconfig(anr):[m[m
+[31m-    anr.run(task=netmiko_send_config, config_file = "config_text")[m[m
+[31m-    anr.run(task=netmiko_send_command, command_string = "show run | sec user")[m[m
+[32m+[m[32m    anr.run(task=netmiko_send_config, config_file = config_text")[m[m
+[32m+[m[32m    anr.run(task=netmiko_send_command, command_string = {"show run | sec user}:[m [32m[m[32m")[m[m
+ [m[m
+ nr = InitNornir([m[m
+[31m-    config_file="config.yaml", dry_run=True[m[m
+[32m+[m[32m    config_file="config.yaml", dry_run=False[m[m
+     )[m[m
+ [m[m
+ devices = nr.filter(rdss=123)[m[m
+ results = devices.run(task=baseconfig)[m[m
+ [m[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K[K:[K[K[?1l>]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ 
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ giot[K[Kt diff[K[K[K[Kcheck [Kout test3.py
+Updated 1 path from the index
+]0;rdsisdf@ubuntu: ~/Git[01;32mrdsisdf@ubuntu[00m:[01;34m~/Git[00m$ git checkout test3.py[4Pdiff[C[C[C[C[C[C[C[C[C[7Pstatus[5Pclearvim test3.py 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"test3.py" [noeol] 17L, 554C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35mfrom[m nornir [35mimport[m InitNornir
+[35mfrom[m nornir_utils.plugins.functions [35mimport[m print_result, print_title
+[35mfrom[m nornir_netmiko [35mimport[m netmiko_send_config, netmiko_send_command
+
+[38;5;130mdef[m [36mbaseconfig[m(anr):
+    anr.run(task=netmiko_send_config, config_file = [31m"config_text"[m)
+    anr.run(task=netmiko_send_command, command_string = [31m"show run | sec user"[m)
+
+nr = InitNornir(
+    config_file=[31m"config.yaml"[m, dry_run=[36mTrue[m
+    )
+
+devices = nr.filter(rdss=[31m123[m)
+results = devices.run(task=baseconfig)
+
+print_title([31m"DEPLOYING AUTOMATED BASELINE CONFIGURATION"[m)
+print_result[106m([mresults[106m)[m
+[94m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H17,21[9CAll[17;21H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81mfrom[m nornir [38;5;81mimport[m InitNornir
+[38;5;81mfrom[m nornir_utils.plugins.functions [38;5;81mimport[m print_result, print_title
+[38;5;81mfrom[m nornir_netmiko [38;5;81mimport[m netmiko_send_config, netmiko_send_command
+
+[93mdef[m [1m[96mbaseconfig[m(anr):
+    anr.run(task=netmiko_send_config, config_file = [95m"config_text"[m)
+    anr.run(task=netmiko_send_command, command_string = [95m"show run | sec user"[m)
+
+nr = InitNornir(
+    config_file=[95m"config.yaml"[m, dry_run=[1m[96mTrue[m
+    )
+
+devices = nr.filter(rdss=[95m123[m)
+results = devices.run(task=baseconfig)
+
+print_title([95m"DEPLOYING AUTOMATED BASELINE CONFIGURATION"[m)
+print_result[46m([mresults[46m)[m
+[94m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H17,21[9CAll"test3.py" [noeol] 17L, 554C[17;21H[?25h[?25l[24;53H~@k[17;21H[24;53H   [16;21H[17;13H([7C)[24;64H6[16;21H[?25h[?25l[24;53H~@k[16;21H[24;53H   [15;1H[24;64H5,0-1[15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [14;21H[24;64H4,21 [14;21H[?25h[?25l[24;53H~@k[14;21H[24;53H   [13;21H[24;64H3[13;21H[?25h[?25l[24;53H~@k[13;21H[24;53H   [12;1H[24;64H2,0-1[12;1H[?25h[?25l[24;53H~@k[12;1H[24;53H   [11;5H[9;16H[46m([11;5H)[m[24;64H1,5  [11;5H[?25h[?25l[24;53H~@k[11;5H[24;53H   [10;21H[9;16H([11;5H)[24;64H0,21[10;21H[?25h[?25l[24;53H~@k[10;21H[24;53H   [9;16H[46m([11;5H)[m[24;63H9,16 [9;16H[?25h[?25l[24;53H~@k[9;16H[24;53H   [8;1H[9;16H([11;5H)[24;63H8,0-1[8;1H[?25h[?25l[24;53H~@k[8;1H[24;53H   [7;21H[24;63H7,21 [7;21H[?25h[?25l[24;53H~@k[7;21H[24;53H   [6;21H[24;63H6[6;21H[?25h[?25l[24;53H~@k[6;21H[24;53H   [5;20H[24;63H5,20[5;20H[?25h[?25l[24;53H~@k[5;20H[24;53H   [5;19H[46m([manr[46m)[m[24;65H19[5;19H[?25h[?25l[24;53H~@k[5;19H[24;53H   [5;18H(anr)[24;66H8[5;18H[?25h[?25l[24;53H~@k[5;18H[24;53H   [5;17H[24;66H7[5;17H[?25h[?25l[24;53H~@k[5;17H[24;53H   [5;16H[24;66H6[5;16H[?25h[?25l[24;53H~@k[5;16H[24;53H   [5;15H[46m([manr[46m)[m[24;66H5[5;15H[?25h[?25l[24;53H~@k[5;15H[24;53H   [5;14H[1C(anr)[24;66H4[5;14H[?25h[?25l[24;53H~@k[5;14H[24;53H   [5;13H[24;66H3[5;13H[?25h[?25l[24;53H~@k[5;13H[24;53H   [5;12H[24;66H2[5;12H[?25h[?25l[24;53H~@k[5;12H[24;53H   [5;11H[24;66H1[5;11H[?25h[?25l[24;53H~@k[5;11H[24;53H   [5;10H[24;66H0[5;10H[?25h[?25l[24;53H~@k[5;10H[24;53H   [5;9H[24;65H9 [5;9H[?25h[?25l[24;53H~@k[5;9H[24;53H   [5;8H[24;65H8[5;8H[?25h[?25l[24;53H~@k[5;8H[24;53H   [5;7H[24;65H7[5;7H[?25h[?25l[24;53H~@k[5;7H[24;53H   [5;6H[24;65H6[5;6H[?25h[?25l[24;53H~@k[5;6H[24;53H   [5;5H[24;65H5[5;5H[?25h[?25l[24;53H~@k[5;5H[24;53H   [5;4H[24;65H4[5;4H[?25h[?25l[24;53H~@k[5;4H[24;53H   [5;3H[24;65H3[5;3H[?25h[?25l[24;53H~@k[5;3H[24;53H   [5;2H[24;65H2[5;2H[?25h[?25l[24;53H~@k[5;2H[24;53H   [5;1H[24;65H1[5;1H[?25h[?25l[24;53H~@k[5;1H[24;53H   [5;1H[?25h[?25l[24;53H^M[5;1H[24;53H  [6;5H[24;63H6,5[6;5H[?25h[?25l[24;53H~@k[6;5H[24;53H   [5;5H[24;63H5[5;5H[?25h[?25l[24;53H~@k[5;5H[24;53H   [5;5H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H5,5[11CAll[5;5H[?25h[?25l[24;65H4[5;4H[?25h[?25l[24;65H3[5;3H[?25h[?25l[24;65H2[5;2H[?25h[?25l[24;65H1[5;1H[?25h[?25l[6;23r[6;1H[L[1;24r[5;1H[K[6;1H[93mdef[m [1m[96mbaseconfig[m(anr):[24;63H[K[24;63H6,1[11CAll[6;1H[?25h[?25l[24;63H5[5;1H[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;63H[K[24;63H4,1[11CAll[4;1H[?25h[?25l[96m#[m[24;65H2[4;2H[?25h[?25l[96mT[m[24;65H3[4;3H[?25h[?25l[96mH[m[24;65H4[4;4H[?25h[?25l[96mI[m[24;65H5[4;5H[?25h[?25l[96mS[m[24;65H6[4;6H[?25h[?25l[96m [m[24;65H7[4;7H[?25h[?25l[96mS[m[24;65H8[4;8H[?25h[?25l[96m+[m[24;65H9[4;9H[?25h[?25l[4;8H[K[24;65H8[4;8H[?25h[?25l[4;7H[K[24;65H7[4;7H[?25h[?25l[96mI[m[24;65H8[4;8H[?25h[?25l[96mS[m[24;65H9[4;9H[?25h[?25l[96m [m[24;65H10[4;10H[?25h[?25l[96mJ[m[24;66H1[4;11H[?25h[?25l[96mU[m[24;66H2[4;12H[?25h[?25l[96mS[m[24;66H3[4;13H[?25h[?25l[96mT[m[24;66H4[4;14H[?25h[?25l[96m [m[24;66H5[4;15H[?25h[?25l[96mA[m[24;66H6[4;16H[?25h[?25l[96m [m[24;66H7[4;17H[?25h[?25l[96mC[m[24;66H8[4;18H[?25h[?25l[96mO[m[24;66H9[4;19H[?25h[?25l[96mM[m[24;65H20[4;20H[?25h[?25l[96mM[m[24;66H1[4;21H[?25h[?25l[96mE[m[24;66H2[4;22H[?25h[?25l[96mN[m[24;66H3[4;23H[?25h[?25l[96mT[m[24;66H4[4;24H[?25h[?25l[96m [m[24;66H5[4;25H[?25h[?25l[96mF[m[24;66H6[4;26H[?25h[?25l[96mO[m[24;66H7[4;27H[?25h[?25l[96mR[m[24;66H8[4;28H[?25h[?25l[96m [m[24;66H9[4;29H[?25h[?25l[96mT[m[24;65H30[4;30H[?25h[?25l[96mH[m[24;66H1[4;31H[?25h[?25l[96mE[m[24;66H2[4;32H[?25h[?25l[96m [m[24;66H3[4;33H[?25h[?25l[96mP[m[24;66H4[4;34H[?25h[?25l[96mU[m[24;66H5[4;35H[?25h[?25l[96mR[m[24;66H6[4;36H[?25h[?25l[96mP[m[24;66H7[4;37H[?25h[?25l[96mO[m[24;66H8[4;38H[?25h[?25l[96mS[m[24;66H9[4;39H[?25h[?25l[96mE[m[24;65H40[4;40H[?25h[?25l[96m [m[24;66H1[4;41H[?25h[?25l[96mO[m[24;66H2[4;42H[?25h[?25l[96mF[m[24;66H3[4;43H[?25h[?25l[96m [m[24;66H4[4;44H[?25h[?25l[96mT[m[24;66H5[4;45H[?25h[?25l[96mE[m[24;66H6[4;46H[?25h[?25l[96mS[m[24;66H7[4;47H[?25h[?25l[96mT[m[24;66H8[4;48H[?25h[?25l[96mI[m[24;66H9[4;49H[?25h[?25l[96mN[m[24;65H50[4;50H[?25h[?25l[96mG[m[24;66H1[4;51H[?25h[24;1H[K[4;50H[?25l

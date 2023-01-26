@@ -2,9 +2,9 @@
 inventory:
     plugin: SimpleInventory
     options:
-        host_file: "/home/rdsisdf/TemplateAutomation/hosts.yaml"
-        group_file: "/home/rdsisdf/TemplateAutomation/groups.yaml"
-        defaults_file: "/home/rdsisdf/TemplateAutomation/defaults.yaml"
+        host_file: "/home/rdsisdf/Git/hosts.yaml"
+        group_file: "/home/rdsisdf/Git/groups.yaml"
+        defaults_file: "/home/rdsisdf/Git/defaults.yaml"
 runner:
   plugin: threaded
   options:

@@ -1,7 +1,7 @@
 from nornir import InitNornir
 from nornir_utils.plugins.functions import print_result, print_title
 from nornir_netmiko import netmiko_send_config, netmiko_send_command
-
+#THIS IS JUST A COMMENT FOR THE PURPOSE OF TESTING
 def baseconfig(anr):
     anr.run(task=netmiko_send_config, config_file = "config_text")
     anr.run(task=netmiko_send_command, command_string = "show run | sec user")
